@@ -31,7 +31,7 @@ get_header(); ?>
             </ol>
 
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner animated fadeIn" role="listbox">
               <div class="item active">
                 <div class="carousel-caption">
                   <h2>MOTOR REPAIRS</h2>
@@ -168,6 +168,16 @@ get_header(); ?>
         <h2>Rewinds &amp; J. Windsor</h2>
         <p>Welcome to the home of Rewinds &amp; J. Windsor, one of the largest independently owned electric motor and rotating equipment repairers in the UK. From mechanical and electrical repairs to electrical manufacturing and sales, at Rewinds &amp; J. Windsor we have been setting the standards for engineering solutions for over 60 years. </p>
         <span class="arrow bounce"></span>
+      </div>
+      <div class="col-md-offset-2 col-md-8">
+        <div id="callusBlock">
+          <div class="left">
+            <h2>Ready to talk with RJW?</h2>
+          </div>
+          <div class="right">
+            <a href="<?php echo get_site_url(); ?>/contact" class="btn btn-primary">Get in touch <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>

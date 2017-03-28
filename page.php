@@ -18,7 +18,7 @@ get_header(); ?>
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="content">
+            <div class="content animated fadeIn">
               <?php the_field('banner_text'); ?>
             </div>
           </div>
@@ -33,7 +33,7 @@ get_header(); ?>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1><?php the_title() ?></h1>
+          <h1 class="animated fadeIn"><?php the_title() ?></h1>
         </div>
       </div>
     </div>

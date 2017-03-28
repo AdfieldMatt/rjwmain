@@ -52,7 +52,7 @@
                 <a href="https://www.facebook.com/pages/RJW-Engineering/1620788144816897?fref=ts" target="_blank" title="Facebook" class="facebook"></a>
                 <a href="https://plus.google.com/+Rjwengineering/about" title="Google" target="_blank" class="google"></a>
                 <a href="http://uk.linkedin.com/pub/rjw-engineering/67/b56/531" target="_blank" title="LinkedIn" class="linkedin"></a>
-              <a href="<?php echo get_site_url(); ?>/locations" class="btn btn-info">Our Locations</a>
+              <a href="<?php echo get_site_url(); ?>/contact" class="btn btn-info">Locations / Get in Touch</a>
             </div>
             <div class="info_right">
               <h2><small>Call our freephone...</small>0800 999 0200</h2>
