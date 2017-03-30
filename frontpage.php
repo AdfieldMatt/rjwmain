@@ -80,6 +80,7 @@ get_header(); ?>
       </div>
     </div>
   </div>
+
 <div class="container-fluid">
   <div class="row">
     <div class="service_area_grid">
@@ -146,6 +147,7 @@ get_header(); ?>
     <div class="row">
       <div class="col-md-12">
         <h2>Shop Motors &amp; Inverters</h2>
+        <p>Discover our wide range of motors and inverters.</p>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="product">

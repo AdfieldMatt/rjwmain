@@ -28,7 +28,7 @@
       </div>
       <div class="col-md-3">
         <h3>Where are we?</h3>
-        <p>Manchester Office<br />Hulton Works,<br /> Smithfold Lane,<br /> Worsley,<br /> Manchester<br /> M28 0GP<br /><br />Telephone: 0161 702 8737<br />Fax: 0161 702 8730</p>
+        <p>Head Office<br />81 Regent Road,<br /> Liverpool,<br /> L5 9SY<br /><br />Telephone: 0151 207 2074</p>
       </div>
       <div class="col-md-2 col-xs-6">
         <h3>Navigation</h3>

@@ -55,7 +55,7 @@
               <a href="<?php echo get_site_url(); ?>/contact" class="btn btn-info">Locations / Get in Touch</a>
             </div>
             <div class="info_right">
-              <h2><small>Call our freephone...</small>0800 999 0200</h2>
+              <h2><small>Call us now on...</small>0151 207 2074</h2>
             </div>
           </div>
           <!--MAIN MENU-->

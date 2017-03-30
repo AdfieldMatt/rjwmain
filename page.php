@@ -41,35 +41,11 @@ get_header(); ?>
   <?php } ?>
   <!--END OF BANNER AREA-->
 
-<div id="intro_area">
+<div id="intro_area_internal">
   <div class="container">
     <div class="row">
-      <div class="col-md-offset-2 col-md-8">
+      <div class="col-md-offset-1 col-md-7">
         <?php while ( have_posts() ) : the_post(); ?>
-
-          <?php the_excerpt(); ?>
-
-        <?php
-          // If comments are open or we have at least one comment, load up the comment template
-          if ( comments_open() || '0' != get_comments_number() )
-            comments_template();
-        ?>
-
-      <?php endwhile; // end of the loop. ?>
-      </div>
-      <div class="col-md-offset-5 col-md-2">
-        <a href="#jump" class="btn btn-danger content-show">Read More <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </div>
-</div>
-
-  <!--CONTENT AREA-->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 jump">
-        <div id="content">
-          <?php while ( have_posts() ) : the_post(); ?>
 
           <?php the_content(); ?>
 
@@ -80,39 +56,23 @@ get_header(); ?>
         ?>
 
       <?php endwhile; // end of the loop. ?>
+      </div>
+      <div class="col-md-3">
+        <div id="internal_call_box">
+          <h3>Request callback...</h3>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="fullName" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+              <textarea type="text" class="form-control" id="enquiry" placeholder="What would you like to discus?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Request a Callback</button>
+          </form>
         </div>
-      </div>
-    </div>
-  </div>
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-6 no-padding">
-      <div id="news_area">
-        <?php $the_query = new WP_Query( 'posts_per_page=2' ); ?>
-        <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-          <div class="post">
-            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-            <h4>Posted by <?php the_author(); ?> <span class="readmore"><a href="<?php the_permalink(); ?>" class="readmore">Read More</a></span></h4>
-          </div>
-        <?php endwhile;?>
-      </div>
-    </div>
-    <div class="col-md-6 no-padding">
-      <div id="call_area">
-        <h3>Would you like us to call you?</h3>
-        <form>
-          <div class="form-group">
-            <input type="text" class="form-control" id="fullName" placeholder="Name">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="phone" placeholder="Phone Number">
-          </div>
-          <div class="form-group">
-            <textarea type="text" class="form-control" id="enquiry" placeholder="What would you like to discus?"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Request a Callback</button>
-        </form>
       </div>
     </div>
   </div>
