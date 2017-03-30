@@ -45,6 +45,7 @@ get_header(); ?>
   <div class="container">
     <div class="row">
       <div class="col-md-offset-1 col-md-7">
+        <?php the_breadcrumb(); ?>
         <?php while ( have_posts() ) : the_post(); ?>
 
           <?php the_content(); ?>
