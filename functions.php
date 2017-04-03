@@ -191,4 +191,5 @@ function the_breadcrumb() {
 			echo the_title();
 		}
 	}
+
 }
